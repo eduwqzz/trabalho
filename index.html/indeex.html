@@ -1,1 +1,46 @@
-!
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A História do Futebol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>O Planeta Bola</h1>
+            <p>A jornada do esporte mais popular do mundo, desde as origens até a era digital.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>De Onde Vem Essa Paixão?</h2>
+            <p>O futebol não é apenas um jogo; é um fenômeno cultural que move bilhões de pessoas. Mas a bola nem sempre rolou do jeito que conhecemos hoje. Sua história é cheia de evolução, regras e transformações.</p>
+        </section>
+
+        <section class="timeline-section">
+            <h2>Linha do Tempo do Futebol</h2>
+            <p>Clique nos botões abaixo para navegar pelas eras do futebol:</p>
+            
+            <div class="tabs">
+                <button class="tab-btn active" onclick="mudarEra('origens')">Origens Antigas</button>
+                <button class="tab-btn" onclick="mudarEra('inglaterra')">A Criação (Século XIX)</button>
+                <button class="tab-btn" onclick="mudarEra('seculoxx')">A Expansão e Copas</button>
+                <button class="tab-btn" onclick="mudarEra('atualidade')">Dias de Hoje</button>
+            </div>
+
+            <div id="conteudo-era" class="conteudo-era">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Almanaque do Futebol. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
